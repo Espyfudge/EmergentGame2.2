@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/disLoyalTitle.unity
+- path: Assets/Scenes/disLoyalGameScene1.unity
   isLoaded: 1
   isActive: 1
