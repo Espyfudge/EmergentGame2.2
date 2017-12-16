@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour {
 
 	private Image imFill;
 	private float acFill = 1;
+    public Text timeUpText;
 	// Use this for initialization
 	void Start () {
 		imFill = GetComponent<Image>();
@@ -19,9 +20,10 @@ public class Timer : MonoBehaviour {
 		imFill.fillAmount = acFill;
 
 		if ( imFill.fillAmount <= 0.0f ) {
-			imFill.fillAmount = acFill = 1.0f;
+            timeUpText.text = "Your time is up!";
 
 			// what happens when time is up
+
 		}
 	}
 }
